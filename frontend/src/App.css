@@ -38,6 +38,9 @@ border-radius: .7rem;
 }
 main .right{
   background-color:#343434 ;
+  padding: 1rem 2rem;
+  font-size: 10px;
+
 }
 main .left .review{
   position: absolute;

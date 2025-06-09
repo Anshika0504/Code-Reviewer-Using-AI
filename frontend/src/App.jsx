@@ -2,6 +2,7 @@ import './App.css'
 import "prismjs/themes/prism-tomorrow.css"
 import Editor from "react-simple-code-editor"
 import prism from "prismjs"
+import Markdown from "react-markdown"
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 function App() {
@@ -42,9 +43,7 @@ style={{
 </div>
       </div>
       <div className="right">
-      {
-        review
-      }
+      <Markdown>{review}</Markdown>
       </div>
      </main>
     </>
